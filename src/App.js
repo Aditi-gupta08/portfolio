@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import {Header, Education, Project, Footer, Internship} from './utils';
+import {education_data, project_data, others_data, social_data} from './data';
 import './App.css';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header social_data= {social_data} />
+      <Education edu_data= {education_data} />
+      <Project proj_data= {project_data} />
+      <Internship />
+      <Footer others_data= {others_data} social_data= {social_data} />
     </div>
   );
 }
