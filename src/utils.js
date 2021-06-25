@@ -16,7 +16,6 @@ class Header extends React.Component {
                         <div className="header-div__content__head1"> HEY THERE, </div>
                         <div className="header-div__content__head2"> I am Aditi Gupta </div> 
 
-                        <a class="header-div__content__button stroke smoothscroll" href="https://drive.google.com/file/d/1ibM1yhB8dpe1ubV86ZXpHTHNZMRoCrs2/view?usp=sharing" target="_blank"> Download resume </a>
                     </div> 
 
                     <div className="header-div__content__profile-pic">
